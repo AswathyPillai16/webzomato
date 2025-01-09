@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+   background-image:linear-gradient(rgba(36,36,36,0.7),black),url(https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/IN-en-20250106-TRIFECTA-perspective_27b02e7c-f668-4639-9e82-1a5485084b2a_large.jpg);
+   background-size: cover;
+   background-position: center;
+   padding: 10px 8%;
+   
+}
+nav{
+    display: flex;
+    align-content: center;
+    padding: 10px 0;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+nav button{
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    line-height: 1.25rem;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 19px;
+    margin: 0px;
+
+
+}
+.logo{
+    width: 8.75rem;
+    cursor: pointer;
+    background: transparent;
+}
+.lug{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    
+}
+.lug img{
+    width: 10px;
+    margin-left: 8px;
+}
+.container{
+    text-align: center;
+    place-items: center;
+    top: 35%;
+    left: 30%;
+    position: absolute;
+}
+.container h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 600px;
+    
+}
+.container h3{
+    margin-top: 25px;
+    font-size: 20px;
+    font-size: 400;
+}
+.container p{
+    margin-top: 20px;
+}
+.email {
+    
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    padding: 16px 42px;
+    margin-top: 30px;
+}
+.email input{
+    width: 300px;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 4px;
+    border-color: gray;
+    padding: 20px 35px;
+}
+.email button{
+    background-color: red;
+    width: 140px;
+    cursor: pointer;
+}
+
+
+
+
+
+.card{
+    width:95%;
+    padding: 80px 70px;
+}
+.card .card_top{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 100;
+    
+}
+.card .card_top .card_btn
+{
+    
+    padding: 10px 0;
+}
+.card .card_top .card_btn select{
+    text-align: left;
+    padding: 10px 20px;
+    color: white;
+    background: transparent;
+    border-radius:5px;
+    margin-left: 8px;
+    padding-top: 4px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.card .card_top .card_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    padding: 20px 0;
+}
+.card .card_top .card_img img{
+    border-radius: 8px;
+    cursor: pointer;
+    border: 30px;
+    
+}
+
+
+
+
+
+
+.faq{
+    width: 100%;
+}
+.faq h1{
+    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 550;
+    padding-left: 120px;
+    
+}
+.faq .faq_section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+.faq .faq_section button{
+    
+    padding: 30px 50px;
+    width: 60%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-align: left;
+    margin-bottom: auto;
+    margin-bottom: 7px;
+    
+    
+}.footer{
+    
+    padding: 50px 12% 10px;
+    border-top: 6px solid;
+    color:#777 ;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 1%;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+
+}
+
+
+
+
+
+
